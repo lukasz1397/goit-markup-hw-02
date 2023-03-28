@@ -4,25 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header class="menu">
-      <a href="#">Web<span>Studio</span></a>
-      <ul class="">
-        <li><a href="index.html">Agencja</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="#">Kontakty</a></li>
+      <a href="#" class="menu-right">Web<span class="highlight">Studio</span></a>
+     <ul class="menu-center">
+        <li><a href="/index.html" class="agencja">Agencja</a></li>
+        <li><a href="/portfolio.html" class="portfolio">Portfolio</a></li>
+        <li><a href="#" class="kontakt">Kontakty</a></li>
       </ul>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+48 111 111 111">+48 111 111 111</a></li>
+      <ul class="menu-right">
+        <li>
+          <a href="mailto:info@devstudio.com" class="mailto"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+48 111 111 111" class="tel">+48 111 111 111</a>
+        </li>
       </ul>
     </header>
     <main>
       <section>
-        <ul>
+        <ul class="menu-button">
           <li><button type="button">Wszystkie</button></li>
           <li><button type="button">Strony</button></li>
           <li><button type="button">Aplikacje</button></li>
@@ -31,61 +45,112 @@
         </ul>
       </section>
       <section class="photo">
-        <ul>
+        <ul class="photo-main">
           <li>
-            <img src="images/technocrack.jpg" alt="" />
+            <img
+              src="images/technocrack.jpg"
+              alt="photo-technocrack"
+              width="370px"
+              height="294px"
+            />
             <h3>Technocrack</h3>
             <p>Strona internetowa</p>
           </li>
           <li>
-            <img src="images/grafika_new_orlean_vs_golden_star.jpg" alt="" />
+            <img
+              src="images/grafika_new_orlean_vs_golden_star.jpg"
+              alt=""
+              width="370px"
+              height="294px"
+            />
             <h3>Grafika New Orlean vs Golden Star</h3>
             <p>Dizajn</p>
           </li>
           <li>
-            <img src="images/restauracja_seafood.jpg" alt="" />
+            <img
+              src="images/restauracja_seafood.jpg"
+              alt=""
+              width="370px"
+              height="294px"
+            />
             <h3>Restauracja Seafood</h3>
             <p>Aplikacja</p>
           </li>
           <li>
-            <img src="images/projekt_prime.jpg" alt="" />
+            <img
+              src="images/projekt_prime.jpg"
+              alt=""
+              width="370px"
+              height="294px"
+            />
             <h3>Projekt Prime</h3>
             <p>Marketing</p>
           </li>
           <li>
-            <img src="images/projekt_boxes.jpg" alt="" />
+            <img
+              src="images/projekt_boxes.jpg"
+              alt=""
+              width="370px"
+              height="294px"
+            />
             <h3>Projekt Boxes</h3>
             <p>Aplikacja</p>
           </li>
           <li>
-            <img src="images/inspiration_has_no_borders.jpg" alt="" />
+            <img
+              src="images/inspiration_has_no_borders.jpg"
+              alt="photo-inspiration_has_no_borders"
+              width="370px"
+              height="294px"
+            />
             <h3>Inspiration has no Borders</h3>
             <p>Strona internetowa</p>
           </li>
           <li>
-            <img src="images/magazyn_limited_edition.jpg" alt="" />
+            <img
+              src="images/magazyn_limited_edition.jpg"
+              alt="photo-magazyn_limited_edition"
+              width="370px"
+              height="294px"
+            />
             <h3>Magazyn Limited Edition</h3>
             <p>Dizajn</p>
           </li>
           <li>
-            <img src="images/projekt_lab.jpg" alt="" />
+            <img
+              src="images/projekt_lab.jpg"
+              alt="photo-projekt_lab"
+              width="370px"
+              height="294px"
+            />
             <h3>Projekt LAB</h3>
             <p>Marketing</p>
           </li>
           <li>
-            <img src="images/growing_business.jpg" alt="" />
+            <img
+              src="images/growing_business.jpg"
+              alt="photo-growing_business"
+              width="370px"
+              height="294px"
+            />
             <h3>Growing Business</h3>
             <p>Aplikacja</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="#">Web<span>Studio</span></a>
-      <ul>
+    <footer class="footer-menu">
+      <a href="#">Web<span class="highlight">Studio</span></a>
+      <ul class="address-footer">
         <li><address>m. Warszawa, Aleje Jerozolimskie 21</address></li>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+48 111 111 111">+48 111 111 111</a></li>
+        <li>
+          <a href="mailto:info@devstudio.com" class="mailto"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+48 111 111 111" class="tel">+48 111 111 111</a>
+        </li>
       </ul>
     </footer>
   </body>
